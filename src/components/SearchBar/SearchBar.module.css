@@ -1,0 +1,23 @@
+.searchSection{
+    border-radius: 50%;
+    display: flex;
+    gap: 1rem;
+}
+
+.searchSection input{
+    width: 30rem;
+    border-radius: 50px;
+    background-color: var(--background-color);
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    cursor: text;
+}
+
+.magnifyingGlass {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: var(--white-color);
+    display: flex;
+    flex-wrap: nowrap;
+    }

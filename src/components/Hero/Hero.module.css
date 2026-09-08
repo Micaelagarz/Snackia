@@ -1,0 +1,73 @@
+.heroSection{
+    background-color: var(--primary-color);
+}
+
+.heroContainer{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--background-color);
+    flex-direction: row;
+}
+
+.heroContent h1{
+    font-size: 5rem;
+    color: var(--yellow-color);
+    font-family: 'Dancing Script', sans-serif;
+    margin: 2rem 0;
+}
+
+.heroSubtitle {
+    margin-top: 2rem;
+    max-width: 70%;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white-color);
+    line-height:1.15;
+}
+
+.heroDescription {
+    margin: 2.4rem 0 3rem;
+    max-width: 70%;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--white-color);
+    line-height:1.15;
+}
+
+.heroButtons{
+    display: flex;
+    gap: 2.3rem;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    padding: 0.6rem 2.6rem;
+    border: 0.2rem solid transparent;
+    color: var(--primary-color);
+    border-radius: 2rem;
+    background-color: var(--yellow-color);
+    font-size: 1.8rem;
+    transition: 0.3s ease;
+}
+
+.button:hover,
+.buttonContactUs {
+    color: var(--white-color);
+    border-color: var(--white-color);
+    background: transparent;
+}
+
+.buttonContactUs:hover {
+    color: var(--primary-color);
+    border-color: var(--yellow-color);
+    background: var(--yellow-color);
+}
+
+.heroImageWrapper{
+    max-width: 50rem;
+    min-width: 20rem;
+    margin-right: 3rem;
+}
+

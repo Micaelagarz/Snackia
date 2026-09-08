@@ -1,0 +1,76 @@
+/* ********************************** */
+/*        GLOBAL CONFIGURATION        */
+/* ********************************** */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --yellow-color: #ffb700;
+  --gray-medium-color: rgb(194, 194, 194);
+  --background-color: #F8F6F2;
+  --primary-color: #266975;
+  --secondary-color: #2b595c;
+  --support-color: #99ac79;
+  --neutral-color: #e4edd1;
+  --main-text: #282828;
+  --complementary-color: #0E6B50;
+}
+
+.container {
+  width: min(160rem, 90%);
+  margin: 0 auto;
+}
+/*agregado*/
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: var(--background-color);
+}
+
+input,
+button{
+  background: transparent; 
+  border: none;             
+  outline: none;           
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.iconAngle {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  color: var(--gray-medium-color);
+  cursor: pointer;
+}

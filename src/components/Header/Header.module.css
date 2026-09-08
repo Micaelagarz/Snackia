@@ -1,0 +1,83 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.userActions {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo svg {
+    font-size: 3rem;
+    padding-bottom: 0.3rem;
+    color: var(--support-color);
+}
+
+.logoText {
+    color: var(--background-color);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+}
+
+.shippinAddressHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.locationDot{
+    font-size: 2.5rem;
+    color: var(--white-color);
+}
+
+.locationInfo{
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+
+.menuOpenButton {
+    display: none;
+}
+
+.cartCounter{
+    position: absolute;
+    top: 2rem;
+    right: -0.8rem;
+    background-color: var(--yellow-color);
+    border-radius: 100%;
+    padding: 0.1rem 0.6rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.cartCounter.hidden {
+    display: none;
+}
+
+
